@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>BrewFinder</title>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="BrewFinder.js"></script>
+		<script type="text/javascript" src="ProjectCenter.js"></script>
+		<link rel="stylesheet" type="text/css" href="BrewFinder.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" inegrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="21Prompt.js"></script>
+	</head>
+	<body>
+		<font face="eufm10">
+			<h1 class="text-center" id="topTitle"><b>Brew Finder</b></h1>
+		</font>
+		<div id="map"></div>
+
+		<br>
+
+		<div class="form-inline text-center">
+			<div class="form-group">
+				<input type="text" id="locality" placeholder="City">
+			</div>
+
+			<div class="form-group">
+				<input type="text" id="region" placeholder="State">
+			</div>
+
+			<button type="button" id="submit_btn" class="btn btn-primary" onclick=project_center()>Search</button>
+		</div>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnF5JhfSbshEQ-C2_Vn5NeDC1gjisjPM0&callback=initMap">
+    	</script>
+	</body>
+</html>

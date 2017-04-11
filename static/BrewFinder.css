@@ -1,0 +1,20 @@
+#map {
+	height: 75%;
+	width: 75%;
+	margin: 0 auto 0 auto;
+
+}
+#mapDiv {
+	text-align:center;
+}
+
+#topTitle {
+	font-size: 60px;
+}
+
+body {
+	background-image: url("http://wallsdesk.com/wp-content/uploads/2016/10/Beer-HD-Wallpaper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
