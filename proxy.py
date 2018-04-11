@@ -15,7 +15,3 @@ def do_proxy():
 	return res
 
 app.run(debug=True, host ="0.0.0.0", port=8001)
-
-
-#https://api.brewerydb.com/v2/locations?locality=Decorah®ion=Iowa
-#&key=94b47267204e747505d05fb3eaf543db&format=json
